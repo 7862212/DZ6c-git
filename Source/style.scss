@@ -1,0 +1,187 @@
+@import "_reset.scss";
+
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	color: #000000;
+	font-family: Montserrat;
+}
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header {}
+
+.main {
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 15px; /* Что бы не прилипал сайт к границам */
+	box-sizing: content-box;
+}
+
+.title {
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+.birthday {
+	color: green;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+.world-champion {
+	color: red;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+.info {
+	font-size: 13px;
+	font-weight: 600;
+	color: #39396e;
+	line-height: 1.3;
+}
+
+.info a {
+	color: #39396e;
+}
+
+.text {
+	font-size: 13px;
+	color: #39396e;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 1.3;
+	text-align: justify;
+}
+
+.champion {
+	// .champion__container
+	&__container {
+		margin-top: 20px;
+	}
+	// .champion__karpov
+	&__karpov {
+		padding: 10px;
+	}
+	// .champion__botvinnik
+	&__botvinnik {
+		padding: 10px;
+	}
+	// .champion__kasparov
+	&__kasparov {
+		padding: 10px;
+	}
+	// .champion__link
+	&__link {
+		padding: 10px 10px 5px 10px;
+		font-size: 13px;
+		color: #39396e;
+		font-weight: bold;
+	}
+
+	&__link a{
+		color: #39396e;
+	}
+}
+
+.karpov {
+	// .karpov__title
+	&__title {
+	}
+	// .karpov__birthday
+	&__birthday {
+	}
+	// .karpov__world-champion
+	&__world-champion {
+	}
+	// .karpov__info
+	&__info {
+	}
+
+	// .karpov__href
+	&__href {
+		background: url(../img/extref.png) no-repeat 0.3px;
+		padding-left: 13px;
+	}
+
+	// .karpov__href-before
+	&__href-before {}
+
+	&__href-before::before {
+		content: url(../img/extref.png);
+		margin-right: 3px;
+	}
+
+	// .karpov__text
+	&__text {
+	}
+}
+
+.botvinnik {
+	// .botvinnik__title
+	&__title {}
+	// .botvinnik__birthday
+	&__birthday {}
+	// .botvinnik__world-champion
+	&__world-champion {}
+	// .botvinnik__info
+	&__info {}
+
+	// .botvinnik__href
+	&__href {
+		background: url(../img/extref.png) no-repeat 0.3px;
+		padding-left: 13px;
+	}
+
+	// .botvinnik__href-before
+	&__href-before {}
+
+	&__href-before::before {
+		content: url(../img/extref.png);
+		margin-right: 3px;
+	}
+
+	// .botvinnik__text
+	&__text {}
+}
+
+.kasparov {
+	// .kasparov__title
+	&__title {}
+	// .kasparov__birthday
+	&__birthday {}
+	// .kasparov__world-champion
+	&__world-champion {}
+	// .kasparov__info
+	&__info {}
+
+	// .kasparov__href
+	&__href {
+		background: url(../img/extref.png) no-repeat 0.3px;
+		padding-left: 13px;
+	}
+
+	// .kasparov__href-before
+	&__href-before {}
+
+	&__href-before::before {
+		content: url(../img/extref.png);
+		margin-right: 3px;
+		}
+
+	// .kasparov__text
+	&__text {}
+}
+
+.footer {}
